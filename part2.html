@@ -1,0 +1,37 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="part2.css">
+	</head>
+	<body>
+	<p style = "text-align: center">	
+<h1>Match the Flowers!</h1>
+<a href="part1.html">Go to Part A</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+	Time remaining
+    <div id="timer_div"></div><br><br>
+	<div id="remaintime_div"></div><br>
+	<div ID="theDiv" align="center"></div> 
+	   <p>Select the number of pairs of pictures you want to identify</p>
+		<select id = "PictureNumber">
+			<option value="8">8</option>
+			<option value="10">10</option>
+			<option value="12">12</option>
+		</select>
+		<br>
+		<p>Choose the number of seconds you need to memorize the cards</p>
+		<select id = "seconds">
+			<option value="3">3</option>
+			<option value="5">5</option>
+			<option value="8">8</option>
+		</select>
+		<br>
+		<input type="button" value="Start" onclick= "tableCreate();remainingtime();">
+			<table id = "myTable" align="center">
+			</table>
+		<script src = "part2.js">
+			
+		</script>		
+	</body>
+
+
+<html>
